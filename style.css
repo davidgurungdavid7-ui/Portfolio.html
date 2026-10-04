@@ -1,0 +1,236 @@
+```css
+/* General Page Styling */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f3f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0 0 15px;
+    font-size: 42px;
+    letter-spacing: 1px;
+}
+
+header img {
+    display: block;
+    margin: 15px auto;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 17px;
+}
+
+/* Navigation */
+nav {
+    background-color: #111827;
+    text-align: center;
+    padding: 18px 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #60a5fa;
+    text-decoration: underline;
+}
+
+/* Horizontal Lines */
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 0;
+}
+
+/* Main Content */
+main {
+    max-width: 950px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    color: #1f2937;
+    border-bottom: 3px solid #3b82f6;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+section h3 {
+    color: #374151;
+    margin-bottom: 5px;
+}
+
+section p {
+    font-size: 16px;
+}
+
+/* Skills and Interests Lists */
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Project Articles */
+article {
+    background-color: #f8fafc;
+    padding: 20px;
+    margin: 15px 0;
+    border-left: 5px solid #3b82f6;
+    border-radius: 5px;
+}
+
+article h3 {
+    margin-top: 0;
+    color: #1f2937;
+}
+
+/* Links */
+a {
+    color: #2563eb;
+}
+
+a:hover {
+    color: #1d4ed8;
+}
+
+/* Contact Section */
+#contact a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 700px) {
+
+    header {
+        padding: 30px 15px;
+    }
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    header img {
+        width: 140px;
+        height: 140px;
+    }
+
+    nav {
+        position: static;
+        padding: 12px 5px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 7px;
+        font-size: 14px;
+    }
+
+    main {
+        margin: 20px auto;
+        padding: 0 12px;
+    }
+
+    section {
+        padding: 20px;
+        margin-bottom: 18px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+    article {
+        padding: 15px;
+    }
+
+    header p {
+        font-size: 15px;
+    }
+}
+
+/* Small Phone Screens */
+@media (max-width: 450px) {
+
+    header h1 {
+        font-size: 27px;
+    }
+
+    header img {
+        width: 120px;
+        height: 120px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    section {
+        padding: 16px;
+    }
+}
+```
